@@ -1,0 +1,99 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   }
+   /* Header Styling */
+   header {
+    background-color: #2d3a3a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+   }
+   header h1 {
+    margin: 0;
+    font-size: 2.5em;
+   }
+   /* Navigation Styles */
+   nav {
+    text-align: center;
+    margin-top: 20px;
+   }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5px;
+   }
+   nav a:hover {
+    background-color: #fff;
+    color: #2d3a3a;
+    transition: 0.3s ease;
+   }
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   /* Section Styling */
+   section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   section h2 {
+    color: #2d3a3a;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+   }
+   ul {
+    padding-left: 20px;
+   }
+   ul li {
+    margin-bottom: 5px;
+   }
+   ol {
+    padding-left: 20px;
+   }
+   ol li {
+    margin-bottom: 10px;
+   }
+   /* Image Styling */
+   img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   /* Footer Styling */
+   footer {
+    text-align: center;
+    background-color: #2d3a3a;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+   }
+   footer p {
+    margin: 0;
+    font-size: 1em;
+   }
+   /* Link Styling for Home/Back Links */
+   footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+   }
+   footer a:hover {
+    text-decoration: underline;
+   }
